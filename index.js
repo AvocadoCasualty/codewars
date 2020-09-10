@@ -93,4 +93,31 @@
 // console.log(opposite(5))
 // console.log(opposite(-5))
 // console.log(opposite(602))
+
 // #9
+// function removeChar(str){
+//     let newArr = str.split('')
+//     let popped = newArr.pop()
+//     let shifted = newArr.shift()
+//     return newArr.join('')
+//
+// };
+//Alt solution:
+// function removeChar(str) {
+//     return str.slice(1, -1);
+// }
+// console.log(removeChar('eloquent'))
+// console.log(removeChar("Ahsoka"))
+// console.log(removeChar("Xambee"))
+
+//#10
+// function nbYear(p0, percent, aug, p) {
+//     let count = 0
+//     while(true){
+//         if(p0>=p){return count}
+//         p0 = p0 + p0 * (percent/100) + aug;
+//         count ++
+//     }
+// }
+//
+// console.log(nbYear(1500, 5, 100, 5000))
