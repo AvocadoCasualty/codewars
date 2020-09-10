@@ -85,3 +85,12 @@
 //     return +joined
 //
 // }
+// #8
+// function opposite(number) {
+//     return number*-1
+// }
+//
+// console.log(opposite(5))
+// console.log(opposite(-5))
+// console.log(opposite(602))
+// #9
