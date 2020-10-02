@@ -121,3 +121,31 @@
 // }
 //
 // console.log(nbYear(1500, 5, 100, 5000))
+
+//#11
+// function count (string) {
+//     arr = string.split('')
+//     object = {}
+//     for(let i = 0; i< arr.length -1; i++)
+//         key = arr[i]
+//         object.key = 1
+//         // if(arr[i] !== object){
+//         //     arr[i].push(object)
+//         // }
+//     return object;
+// }
+//
+// console.log(count('aba'))
+console.log('Still work on 11')
+
+//#12
+
+// function hero(bullets, dragons){
+//  if(bullets>= dragons*2){
+//      return true
+//  } else {
+//      return false
+//  }
+// }
+//
+// console.log(hero(100, 40))
