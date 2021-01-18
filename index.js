@@ -147,5 +147,37 @@ console.log('Still work on 11')
 //      return false
 //  }
 // }
+// or
+// function hero(bullets, dragons){
+//     return bullets >= dragons * 2
+// }
 //
 // console.log(hero(100, 40))
+
+// # 13
+// function hello(name) {
+//    let correctName = name.replace(/[a-z]/ig, '')
+//    return name ? `Hello, ${name}!`: 'Hello, World!';
+// }
+//
+// console.log(hello('SuSan'))
+// console.log(hello(''))
+
+// # 14
+
+// var isAnagram = function (test, original) {
+//     // remove the variation of lowercase/uppercase for easier comparison
+//     let a = test.toLowerCase()
+//     let b = original.toLowerCase()
+//
+//     //split strings into an array, sort that array and join back into a string.
+//     a = a.split("").sort().join("")
+//     b = b.split("").sort().join("")
+//
+//     //compare sorted strings, return if they are true or false.
+//     return a === b;
+// };
+//
+// console.log(isAnagram("foefet", "toffee"))
+// console.log(isAnagram("Buckethead", "DeathCubeK"))
+// console.log(isAnagram("dumble", "bumble"))
