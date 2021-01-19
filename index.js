@@ -181,3 +181,81 @@ console.log('Still work on 11')
 // console.log(isAnagram("foefet", "toffee"))
 // console.log(isAnagram("Buckethead", "DeathCubeK"))
 // console.log(isAnagram("dumble", "bumble"))
+
+// # 15
+
+// function positiveSum(arr) {
+//     //defining the sum variable we'll need to add to and return.
+//     let sum = 0
+//     //creating a for loop to iterate through the array.
+//     for(let i = 0; i < arr.length; i++){
+//         //if statement to check for negative numbers. If positive, add the # to sum
+//         if (arr[i] > 0) {
+//             sum = sum + arr[i]
+//         }
+//     }
+//     return sum
+// }
+//
+// console.log(positiveSum([1,2,3,4,5]))
+// console.log(positiveSum([]))
+// console.log(positiveSum([-1,2,3,4,-5]))
+
+// # 16 Return Negative
+
+// function makeNegative(num) {
+//     //checking if num is a positive #, if it is multiply by -1 and returning it.
+//     if (num > 0) {
+//        num = num * -1
+//         return num
+//         //if the number is already negative or 0, returning it unchanged.
+//     } else {
+//         return num
+//     }
+// }
+//
+// console.log(makeNegative(42))
+// console.log(makeNegative(0))
+// console.log(makeNegative(-0.987))
+
+// # 17 Return String Spaces
+
+// function noSpace(x) {
+//     //split the string up into an array so we can use array methods to modify it.
+//     let xArr = x.split("")
+//     //created an empty string to put the non-space characters into
+//     let arr = []
+//     //for loop to iterate over the array
+//     for (let i = 0; i < xArr.length; i++) {
+//         // if statement to check each value, if it's not a space, push it into the new array.
+//         if (xArr[i] !== " ") {
+//             arr.push(xArr[i])
+//         }
+//     }
+//     //return the new array joined back together into a string with no spaces.
+//     return arr.join("")
+// }
+
+// alt solution =
+// function noSpace(x){return x.split(' ').join('')}
+//
+// console.log(noSpace('8 j 8   mBliB8g  imjB8B8  jl  B'))
+// console.log(noSpace('8aaaaa dddd r     '))
+
+// # 18 Reversed Strings
+
+// function solution(str){return str.split('').reverse().join('')}
+//
+// console.log(solution('world'))
+// console.log(solution('hi'))
+
+// # 19
+
+
+// # 20
+// # 21
+// # 22
+// # 23
+// # 24
+// # 25
+// console.log()
